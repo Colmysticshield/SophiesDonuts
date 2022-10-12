@@ -138,6 +138,7 @@ a:hover {
   position: absolute;
   margin-bottom: 7rem;
   z-index: 1;
+  display: flex;
 }
 .hero .intro h1 {
   font-size: 70px;
@@ -351,7 +352,15 @@ footer .social svg {
     width: 80%;
   }
 }
-
+.buttonthing a{
+  background: var(--red);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.7rem 1rem;
+  border-radius: 3px;
+  box-shadow: 10px 10px 24px -1px rgba(123, 123, 123, 0.75);
+}
 .menu{
   padding: 0 10px 30px 10px;
   display: grid;
@@ -408,4 +417,13 @@ h1{
   line-height: 28px;
   font-weight: 400;
   align-self: stretch;
+}
+.buttonthing a{
+  background: var(--red);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  box-shadow: 10px 10px 24px -1px rgba(123, 123, 123, 0.75);
 }
