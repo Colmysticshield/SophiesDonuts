@@ -7,17 +7,18 @@
   font-family: "Josefin Sans", sans-serif;
   scroll-behavior: smooth;
   font-size: 17px;
+  ;
 }
 :root {
-  --blue: #9abec1;
+  --blue: #4D8FC3;
   --black: #333030;
-  --red: #e92424;
+  --red: #EF8A84;
 }
 /* .container{
   padding: 0 5rem;
 } */
 body{
-  background-color: white;
+  background-color: #FFF3EB;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* Navbar */
@@ -305,6 +306,7 @@ footer .social svg {
     right: 0;
   }
 
+
   /* Hero */
   .hero .intro{
     margin-bottom: 0;
@@ -381,7 +383,7 @@ footer .social svg {
   position: relative;
   grid-template-rows: auto 1fr;
   border-radius: 15px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
 
 .food-items img{
@@ -398,6 +400,7 @@ h1{
   display: grid;
   grid-template-rows: auto 1fr 50px;
   grid-row-gap: 15px;
+  background-color: white;
 }
 .details-sub{
   display: grid;
@@ -426,4 +429,5 @@ h1{
   padding: 0.7rem 1rem;
   border-radius: 10px;
   box-shadow: 10px 10px 24px -1px rgba(123, 123, 123, 0.75);
+  text-decoration: none;
 }
