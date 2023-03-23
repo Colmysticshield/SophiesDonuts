@@ -115,6 +115,58 @@ a:hover {
   display: flex;
   align-items: center;
 }
+.hero1 {
+  background: var(--blue);
+  padding: 5rem 10% 0rem 10%;
+  height: 25vh;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.hero1-bg {
+  background: var(--black);
+  width: 65rem;
+  height: 37rem;
+  border-radius: 20rem;
+  transform: rotate(-45deg);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  z-index: 0;
+  right: -15.3rem;
+  top: -10rem;
+}
+.hero1-bg img {
+  transform: rotate(45deg);
+  height: 35rem;
+  margin-left: 7rem;
+  margin-bottom: 0rem;
+}
+.hero1 .intro1 {
+  position: absolute;
+  margin-bottom: 7rem;
+  z-index: 1;
+  display: flex;
+}
+.hero1 .intro1 h1 {
+  font-size: 50px;
+}
+.hero1 .intro1 h2 {
+  margin: 1rem 0;
+  font-size: 35px;
+}
+.hero1 .intro button {
+  background: var(--red);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.7rem 1rem;
+  border-radius: 3px;
+  box-shadow: 10px 10px 24px -1px rgba(123, 123, 123, 0.75);
+}
 .hero-bg {
   background: var(--black);
   width: 65rem;
